@@ -1,12 +1,10 @@
 <?php $pslug = "Home" ?>
 <?php include "inc/head.php" ?>
-<?php include "config/connect.php" ?>
-<?php include "inc/nav.php" ?>
 <main>
   <article>
-    <button>First Sidebar</button>
-    <button>Next One</button>
-    <button>A Third One</button>
+    <h1>Main Page Section</h1>
+    <p>This contains the main page content.</p>
+    <p>View a single post <a href="inc/single.php">here</a>.</p>
   </article>
   <aside>
     <?php include "inc/aside.php" ?>

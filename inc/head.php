@@ -7,3 +7,5 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+  <?php include "config/connect.php" ?>
+  <?php include "inc/nav.php" ?>
