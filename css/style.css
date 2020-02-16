@@ -23,18 +23,24 @@ p {
   margin: 0;
   padding: 0;
 }
-.logged {
+.logged-fail {
   padding: .35em 1em .25em 1em;
   background: var(--light);
   color: #AA0000;
+  font-weight: 800;
+}
+.logged {
+  padding: .35em 1em .25em 1em;
+  background: var(--light);
+  color: #007700;
   display: grid;
   grid-template-columns: 11fr 1fr;
 }
 .logged a:link {
-  color: #AA0000;
+  color: #007700;
 }
 .logged a:hover {
-  color: #DD0000;
+  color: #009900;
 }
 a:link {color: var(--link);}
 a:active {color: var(--active);}
