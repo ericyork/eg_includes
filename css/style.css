@@ -2,19 +2,37 @@
   background: #2f2f2f;
   color: #DADADA;
   font-family: sans-serif;
-  line-height: 1;
+  line-height: 1.3;
   --light: #aaa;
-  --dark: #7f7f7f;
+  --mid: #5c5c5c;
+  --dark: #1f1f1f;
+  --link: #6789ab;
+  --active: #eee;
+  --hover: cyan;
+  --visited: #789abc;
 }
 body {
   margin: 0 auto;
   width: 99%;
 }
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 1em 0 .5em 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+a:link {color: var(--link);}
+a:active {color: var(--active);}
+a:hover {color: var(--hover);}
+a:visited {color: var(--visited);}
+
 nav {
   margin: 0;
   display: flex;
   justify-content: space-around;
-  background: var(--light);
+  background: var(--dark);
   text-transform: uppercase;
 }
 nav a {
@@ -26,5 +44,41 @@ nav a {
   transition: all .3s ease-out;
 }
 nav a:hover {
-  background: var(--dark);
+  background: var(--mid);
+}
+main {
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  border: 1px solid var(--light);
+  grid-gap: 1em;
+}
+article {
+  padding: 1em 2em;
+  border: 1px dashed var(--light);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+button {
+  margin-top: 1em;
+  padding: .7em 0 .5em 0;
+  cursor: pointer;
+  width: 15em;
+}
+aside {
+  padding: 0 .5em;
+}
+aside section {
+  padding: 1em 0;
+  border-bottom: 1px solid var(--light);
+  margin-bottom: 1em;
+}
+aside h2:first-child {
+  margin-top: 0;
+}
+aside h4 {
+  padding: 0;
+  margin: 1em 0 .25em 0;
 }
