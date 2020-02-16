@@ -1,0 +1,30 @@
+:root {
+  background: #2f2f2f;
+  color: #DADADA;
+  font-family: sans-serif;
+  line-height: 1;
+  --light: #aaa;
+  --dark: #7f7f7f;
+}
+body {
+  margin: 0 auto;
+  width: 99%;
+}
+nav {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  background: var(--light);
+  text-transform: uppercase;
+}
+nav a {
+  padding: .7em 0 .5em 0;
+  border-radius: 4px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s ease-out;
+}
+nav a:hover {
+  background: var(--dark);
+}
