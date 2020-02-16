@@ -6,7 +6,7 @@
   </form>
 </section>
 <section>
-  <h2>Recent Posts</h2>
+  <h3>Recent Posts</h3>
   <div class="card">
     <img src="" alt="">
     <div class="card-text">
