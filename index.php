@@ -1,5 +1,6 @@
 <?php $pslug = "Home" ?>
 <?php include "inc/head.php" ?>
+<?php include "config/connect.php" ?>
 <?php include "inc/nav.php" ?>
 <main>
   <article>

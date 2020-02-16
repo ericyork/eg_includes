@@ -9,7 +9,9 @@
   <h2>Recent Posts</h2>
   <div class="card">
     <img src="" alt="">
-    <h4>First Post Title</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua . . . <a href="#">More</a></p>
+    <div class="card-text">
+      <h4>First Post Title</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua . . . <a href="#">More</a></p>
+    </div>
   </div>
 </section>
