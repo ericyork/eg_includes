@@ -1,5 +1,5 @@
 <nav>
-  <a href="#">One</a>
+  <a href="index.php">One</a>
   <a href="#">Two</a>
   <a href="#">Three</a>
   <a href="#">Four</a>

@@ -20,6 +20,6 @@
   }
 
   else {
-    echo "<p class=\"logged\">[You're currently connected to $dbname.] <a href=\"create.php\">Create Post</a></p>";
+    echo "<p class=\"logged\">[You're currently connected to $dbname.] <a href=\"create.php\">New Post</a></p>";
   }
 ?>

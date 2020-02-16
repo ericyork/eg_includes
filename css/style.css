@@ -2,6 +2,7 @@
   background: #2f2f2f;
   color: #DADADA;
   font-family: sans-serif;
+  font-size: 16px;
   line-height: 1.3;
   --standard: all .3s ease-in-out;
   --light: #aaa;
@@ -18,6 +19,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 1em 0 .5em 0;
+}
+h1:first-child, h2:first-child {
+  margin-top: 0;
 }
 p {
   margin: 0;
@@ -73,10 +77,6 @@ main {
 }
 article {
   padding: 1em 2em;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
 }
 button {
   margin-top: 1em;
@@ -91,9 +91,6 @@ aside section {
   padding: 1em 0;
   border-bottom: 1px solid var(--light);
   margin-bottom: 1em;
-}
-aside h2:first-child {
-  margin-top: 0;
 }
 aside h4 {
   padding: 0;
@@ -112,4 +109,19 @@ aside h4:first-child {
   display: grid;
   grid-template-columns: 1fr 2fr;
   transition: var(--standard);
+}
+.post-content p {
+  line-height: 1.45;
+  margin-bottom: 1em;
+}
+.post-meta {
+  padding: 1em 0;
+  border-top: 1px solid var(--light);
+  border-bottom: 1px solid var(--light);
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.post-img {
+  max-width: 100%;
+  height: auto;
 }

@@ -1,7 +1,7 @@
 <section>
   <form class="search">
-    <h2>Search All Posts</h2>
-    <input type="text" name="search" value="Search">
+    <h2>Discover Content</h2>
+    <input type="text" name="search" placeholder="Search">
     <input type="submit" name="search-submit" value="Go">
   </form>
 </section>
@@ -11,7 +11,7 @@
     <img src="" alt="">
     <div class="card-text">
       <h4>First Post Title</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua . . . <a href="#">More</a></p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua . . . <a href="single.php">More</a></p>
     </div>
   </div>
 </section>
