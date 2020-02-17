@@ -8,7 +8,6 @@
       $stmt->execute();
       $post_array = $stmt->execute();
       while ($post_array = $stmt->fetch(PDO::FETCH_ASSOC)){
-      // extract row
       extract($post_array);
       echo "<div class=\"post\">";
       echo "<div class=\"post-meta\">";
